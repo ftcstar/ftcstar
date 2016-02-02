@@ -1,17 +1,29 @@
 /* CSS Document */
 
-.header{border:medium;
-position:relative;
-height:200px;
-width:100%
+.header{
+	border:medium;
+	position:relative;
+	height:200px;
+	width:100%;
+	background-color: #8BB7BA;
 }
 .mainBody {
 	position: relative;
 	height: 500px;
 	width: 100%;
+	background-color: #999999;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
 }
 .footer {
 	height: 120px;
 	width: 100%;
 	position:relative;
+	background-color: #96B874;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
 }
