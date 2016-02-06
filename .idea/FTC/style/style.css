@@ -1,0 +1,99 @@
+body {
+	background-color: #D9F3CF;
+}
+
+#main_body {
+	position: relative;
+	-webkit-border-radius:20px;
+	border-radius:30px;
+	width: 80%;
+	left: 10%;
+}
+
+.header {
+	height: 150px;
+	-webkit-border-radius:20px;
+	background-color: #7878E4;
+	color:#0000;
+}
+
+.header .heading {
+	font-size: 50px;
+	text-align: center;
+	
+}
+.header .heading .logo_left {
+	float: left;
+}
+
+#main_body #navbar #holder{
+padding-left:0px;
+/*border-radius:30px;*/
+}
+
+#main_body #navbar #holder ul{
+list-style:none;
+margin: 0;
+padding:0;
+}
+
+#main_body #navbar #holder ul li a{
+text-decoration:none;
+float:left;
+margin-right:2px;
+font-family:Arial, Helvetica, sans-serif;
+color:#00FFFF;
+/*border:1px solid #000;*/
+/*border-bottom:none;*/
+padding: 4px;
+width:141px;
+text-align:center;
+display:block;
+color:#fff;
+background-color: #1055F5;
+/*border-top-left-radius:15px;
+border-top-right-radius:15px;
+border-radius:15px;*/
+}
+
+#main_body #navbar #holder ul li a:hover{
+background:#9B0000;
+color:#fff;
+text-shadow:1px 1px 1px #000;
+}
+
+#main_body #navbar #holder ul li a#onlink{
+	background-color:#9B0000;
+	color: #5BB634;
+	font-size: 22px;
+}
+
+#main_body #navbar #holder ul li a#onlink:hover{
+	background: #9B0000;
+	color: #FFFFFF;
+	text-shadow:1px 1px 1px #000;
+	font-weight: 900;
+}
+
+
+#main_body #desc {
+    background:#fff;
+	border-radius:15px;
+	height: 750px;
+}
+#main_body #footer {
+	
+	border-radius:8px;
+	background-color: #400000;
+	color:#00FFFF;
+}
+
+.vision{
+font-size:20px;
+color:#CC6633;
+text-align:left;
+}
+.style1 {
+text-align:center;
+font-size: 20px;
+}
