@@ -56,7 +56,6 @@ text-align:center;
 display:block;
 color:#333333;
 background-color:#CCE8AE;
-
 }
 
 #main_body #navbar ul li a:hover{
@@ -71,9 +70,9 @@ text-shadow:1px 1px 1px #000;
 }
 
 #main_body #desc {
-    background:#fffffa;
-	border-radius:15px;
-	height: 750px;
+	background:#fffffa;
+	height: 300px;
+	position: relative;
 }
 #main_body #footer {
 	
@@ -82,3 +81,17 @@ text-shadow:1px 1px 1px #000;
 	color:#00FFFF;
 }
 
+#main_body #desc #leftPanel {
+	height: 300px;
+	width: 70%;
+	background-color: #99CC00;
+	position: relative;
+	float: left;
+}
+#main_body #desc #rightPanel {
+	background-color: #0066FF;
+	float: right;
+	width: 30%;
+	height: 300px;
+	position: relative;
+}
